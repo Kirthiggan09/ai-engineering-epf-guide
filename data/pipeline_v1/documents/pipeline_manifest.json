@@ -1,0 +1,156 @@
+{
+  "pipeline_version": "week3-v1",
+  "generated_at_utc": "2026-11-12T06:15:12.561945+00:00",
+  "data_type": "documents",
+  "configuration": {
+    "method": "page-aware",
+    "chunk_size": 800,
+    "remove_repeated_lines": true,
+    "min_page_chars": 20,
+    "documents": [
+      {
+        "doc_id": "restructuring_faq",
+        "relative_path": "Account Restructuring FAQ-EN.pdf",
+        "title": "KWSP Account Restructuring FAQ (English)",
+        "topic": "Account restructuring policy, objectives, and general rules",
+        "source_url": "https://www.kwsp.gov.my/",
+        "accessed_date": "2026-11-12",
+        "document_version": "Not verified",
+        "doc_status": "current"
+      },
+      {
+        "doc_id": "epf_act",
+        "relative_path": "EPF Act 1991_ Legal Framework Overview.pdf",
+        "title": "Employees Provident Fund Act 1991 - Legal Framework Overview",
+        "topic": "Statutory definitions and legal backing",
+        "source_url": "https://www.kwsp.gov.my/",
+        "accessed_date": "2026-11-12",
+        "document_version": "Not verified",
+        "doc_status": "current"
+      },
+      {
+        "doc_id": "lifecycle_appendix",
+        "relative_path": "APENDIX EPF ACCOUNT RESTRUCTURING SET TO ADDRESS MEMBERS LIFE CYCLE NEEDS_25.4.2024 1 (1).pdf",
+        "title": "EPF Account Restructuring Life Cycle Needs Appendix",
+        "topic": "Policy rationale addressing members' life cycle needs",
+        "source_url": "https://www.kwsp.gov.my/",
+        "accessed_date": "2026-11-12",
+        "document_version": "2024-04-25",
+        "doc_status": "current"
+      },
+      {
+        "doc_id": "fleksibel_guide",
+        "relative_path": "Panduan Mudah Pengeluaran Akaun Fleksibel_ENG.pdf",
+        "title": "Akaun Fleksibel Withdrawal Quick Guide (English)",
+        "topic": "Step-by-step procedure for Akaun Fleksibel withdrawals",
+        "source_url": "https://www.kwsp.gov.my/",
+        "accessed_date": "2026-11-12",
+        "document_version": "Not verified",
+        "doc_status": "current"
+      },
+      {
+        "doc_id": "form_9fa",
+        "relative_path": "KWSP 9FA (AHL)_BORANG PERMOHONAN PENGELUARAN AKAUN FLEKSIBEL_25042024.pdf",
+        "title": "KWSP Form 9FA - Akaun Fleksibel Withdrawal Application Form",
+        "topic": "Official application form rules and requirements",
+        "source_url": "https://www.kwsp.gov.my/",
+        "accessed_date": "2026-11-12",
+        "document_version": "2024-04-25",
+        "doc_status": "current"
+      }
+    ]
+  },
+  "processing_method": "page-aware-char-800; clean=collapse-whitespace; repeated_lines_removed=True",
+  "sources": [
+    {
+      "path": "/content/week3_project/data/raw/Account Restructuring FAQ-EN.pdf",
+      "sha256": "15305d58af7b0d9b5421cd40d427f4161217208e8e31a306d8b5f01a379afd6f"
+    },
+    {
+      "path": "/content/week3_project/data/raw/EPF Act 1991_ Legal Framework Overview.pdf",
+      "sha256": "81671aae6db7bde2ba0994b57586a7b2bcb316ddcd07c55c027d3c7288fbb650"
+    },
+    {
+      "path": "/content/week3_project/data/raw/APENDIX EPF ACCOUNT RESTRUCTURING SET TO ADDRESS MEMBERS LIFE CYCLE NEEDS_25.4.2024 1 (1).pdf",
+      "sha256": "6ebd5f7f84afc1052631c247dfa7ab4d0cc814750af8e9f3a94e6f2b74706cca"
+    },
+    {
+      "path": "/content/week3_project/data/raw/Panduan Mudah Pengeluaran Akaun Fleksibel_ENG.pdf",
+      "sha256": "0a7dcb6352ff6fa48ccdf19ca36a8749d335aa758b91f3cdc43089d971a3f648"
+    },
+    {
+      "path": "/content/week3_project/data/raw/KWSP 9FA (AHL)_BORANG PERMOHONAN PENGELUARAN AKAUN FLEKSIBEL_25042024.pdf",
+      "sha256": "2f335b8afc961161d86108904cf9a9c185f2b5b7a712942ddeb495a6bc5a500c"
+    }
+  ],
+  "outputs": [
+    "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+  ],
+  "source_output_mapping": [
+    {
+      "source": "/content/week3_project/data/raw/Account Restructuring FAQ-EN.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/EPF Act 1991_ Legal Framework Overview.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/APENDIX EPF ACCOUNT RESTRUCTURING SET TO ADDRESS MEMBERS LIFE CYCLE NEEDS_25.4.2024 1 (1).pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/Panduan Mudah Pengeluaran Akaun Fleksibel_ENG.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    },
+    {
+      "source": "/content/week3_project/data/raw/KWSP 9FA (AHL)_BORANG PERMOHONAN PENGELUARAN AKAUN FLEKSIBEL_25042024.pdf",
+      "output": "/content/week3_project/data/pipeline_v1/documents/prepared_text.jsonl"
+    }
+  ],
+  "inspection": {
+    "documents": [
+      {
+        "source": "Account Restructuring FAQ-EN.pdf",
+        "pages": 11,
+        "characters": 14165,
+        "empty_pages": []
+      },
+      {
+        "source": "EPF Act 1991_ Legal Framework Overview.pdf",
+        "pages": 49,
+        "characters": 157184,
+        "empty_pages": []
+      },
+      {
+        "source": "APENDIX EPF ACCOUNT RESTRUCTURING SET TO ADDRESS MEMBERS LIFE CYCLE NEEDS_25.4.2024 1 (1).pdf",
+        "pages": 2,
+        "characters": 2954,
+        "empty_pages": []
+      },
+      {
+        "source": "Panduan Mudah Pengeluaran Akaun Fleksibel_ENG.pdf",
+        "pages": 2,
+        "characters": 1229,
+        "empty_pages": []
+      },
+      {
+        "source": "KWSP 9FA (AHL)_BORANG PERMOHONAN PENGELUARAN AKAUN FLEKSIBEL_25042024.pdf",
+        "pages": 4,
+        "characters": 21540,
+        "empty_pages": []
+      }
+    ]
+  },
+  "validation": {
+    "output_count": 1,
+    "output_sha256": [
+      "03b0f87abaf94c51f57bff3428d81e57b58d5a44198b583af0cb1cfeb1d149e0"
+    ],
+    "output_bytes": [
+      362239
+    ]
+  },
+  "source_version": "Not verified",
+  "access_rights": "Not verified — check before sharing"
+}

@@ -37,9 +37,24 @@ Only URLs and ingestion scripts are kept in this repo. Source documents are not 
 ## Repository Structure
 ```text
 ├── README.md
-├── docs/          # Week 1 observation sheet, system map, project scope
+├── docs/          # Week 1-3 documents (observation sheet, requirements, architecture, data inventory, pipeline decisions)
 ├── data/          # data sources and ingestion outputs (no copyrighted files)
 ├── src/           # application code
-├── notebooks/     # experiments
+├── notebooks/     # week3_pipeline.ipynb (V1 data pipeline) and later experiments
 ├── evaluation/    # test sets and results
 └── prompts/       # prompt templates
+```
+
+## Progress Log
+
+| Week | Topic | Artefacts |
+|---|---|---|
+| 1 | Think like an AI engineer | [Observation sheet](week1_observation_sheet.md), [system map](week1_system_map.jpeg), [group reflections](group_reflections.md) |
+| 2 | Plan the AI application | [Requirements](docs/week2_requirements.md), [evaluation criteria](docs/week2_evaluation_criteria.md), [V1 architecture](docs/week2_architecture_v1.png), [architecture decisions](docs/week2_architecture_decisions.md) |
+| 3 | Engineer the data | [Pipeline notebook](notebooks/week3_pipeline.ipynb), [data inventory](docs/week3_data_inventory.md), [pipeline diagram](docs/week3_pipeline_diagram.png), [pipeline decisions](docs/week3_pipeline_decisions.md), [lineage manifest](data/week3_manifest.json), [pipeline run manifest](data/pipeline_v1/documents/pipeline_manifest.json) |
+
+### Week 3 — V1 Data Pipeline (PDF pathway)
+EPF-Guide only needs official KWSP policy PDFs, so Pathway A (PDF/text) was implemented. The notebook runs in Google Colab: **source → ingest → inspect → prepare (page-aware chunking) → validate output → record lineage**. Every prepared chunk keeps its source file, page number, document status/version, access date and SHA-256 checksum, supporting FR3 (source references), RAI1 (verifiable citations), NFR4 (repeatable updates) and NFR5 (current-only documents).
+
+Source PDFs are not redistributed. See [week3_pipeline_decisions.md](docs/week3_pipeline_decisions.md) for the data-sharing decision, stage contracts and traceability.
+

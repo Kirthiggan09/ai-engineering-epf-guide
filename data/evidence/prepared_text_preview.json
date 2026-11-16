@@ -1,0 +1,59 @@
+{
+  "pipeline_version": "week3-v1",
+  "method": "page-aware",
+  "chunk_size": 800,
+  "total_chunks": 319,
+  "chunks_per_source": {
+    "Account Restructuring FAQ-EN.pdf": 22,
+    "EPF Act 1991_ Legal Framework Overview.pdf": 260,
+    "APENDIX EPF ACCOUNT RESTRUCTURING SET TO ADDRESS MEMBERS LIFE CYCLE NEEDS_25.4.2024 1 (1).pdf": 6,
+    "Panduan Mudah Pengeluaran Akaun Fleksibel_ENG.pdf": 3,
+    "KWSP 9FA (AHL)_BORANG PERMOHONAN PENGELUARAN AKAUN FLEKSIBEL_25042024.pdf": 28
+  },
+  "needs_review": 6,
+  "note": "Truncated previews only; full prepared text is not committed (see docs/week3_pipeline_decisions.md, Section 8).",
+  "sample_records": [
+    {
+      "chunk_id": "restructuring_faq-p001-001",
+      "source": "Account Restructuring FAQ-EN.pdf",
+      "source_title": "KWSP Account Restructuring FAQ (English)",
+      "source_url": "https://www.kwsp.gov.my/",
+      "source_sha256": "15305d58af7b0d9b5421cd40d427f4161217208e8e31a306d8b5f01a379afd6f",
+      "accessed_date": "2026-11-12",
+      "document_version": "Not verified",
+      "doc_status": "current",
+      "page": 1,
+      "processing": "page-aware-char-800; clean=collapse-whitespace; repeated-lines-removed",
+      "status": "ready",
+      "text_preview": "Page 1 of 11\n\nFREQUENTLY ASKED QUESTION (FAQs) ON EPF ACCOUNT RESTRUCTURING\n\nNO. BASIC CONCEPT \n1. What is EPF account r..."
+    },
+    {
+      "chunk_id": "restructuring_faq-p001-002",
+      "source": "Account Restructuring FAQ-EN.pdf",
+      "source_title": "KWSP Account Restructuring FAQ (English)",
+      "source_url": "https://www.kwsp.gov.my/",
+      "source_sha256": "15305d58af7b0d9b5421cd40d427f4161217208e8e31a306d8b5f01a379afd6f",
+      "accessed_date": "2026-11-12",
+      "document_version": "Not verified",
+      "doc_status": "current",
+      "page": 1,
+      "processing": "page-aware-char-800; clean=collapse-whitespace; repeated-lines-removed",
+      "status": "ready",
+      "text_preview": "i. The existing Account 1 is renamed to \"Akaun Persaraan\"; and Account 2 to \" Akaun \nSejahtera\" with no change in the pu..."
+    },
+    {
+      "chunk_id": "restructuring_faq-p001-003",
+      "source": "Account Restructuring FAQ-EN.pdf",
+      "source_title": "KWSP Account Restructuring FAQ (English)",
+      "source_url": "https://www.kwsp.gov.my/",
+      "source_sha256": "15305d58af7b0d9b5421cd40d427f4161217208e8e31a306d8b5f01a379afd6f",
+      "accessed_date": "2026-11-12",
+      "document_version": "Not verified",
+      "doc_status": "current",
+      "page": 1,
+      "processing": "page-aware-char-800; clean=collapse-whitespace; repeated-lines-removed",
+      "status": "ready",
+      "text_preview": "The account restructuring seeks to: \n• Increase savings adequacy to increase retirement income security for members; \n• ..."
+    }
+  ]
+}
