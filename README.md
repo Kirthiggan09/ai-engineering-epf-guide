@@ -22,7 +22,7 @@ There is no automated, RAG-based assistant that reliably restricts its generatio
 
 ## Project Objectives
 - **O1:** To design a document-grounded AI assistant utilizing official KWSP public guidelines.
-- **O2:** To develop a retrieval pipeline optimized to prevent hallucination of obsolete financial schemes.
+- **O2:** To develop a retrieval pipeline optimized for prevent hallucination of obsolete financial schemes.
 - **O3:** To evaluate the system for factual groundedness, exact-match accuracy, and safety.
 
 ## Target Users
